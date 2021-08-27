@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.489
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "SWMBH_RCSR", "SWMBH_RCSR\SWMBH_RCSR.rptproj", "{26B8ACBF-CFCC-467D-B570-DDE035AE5A5E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{26B8ACBF-CFCC-467D-B570-DDE035AE5A5E}.Debug|Default.ActiveCfg = Debug
+		{26B8ACBF-CFCC-467D-B570-DDE035AE5A5E}.Debug|Default.Build.0 = Debug
+		{26B8ACBF-CFCC-467D-B570-DDE035AE5A5E}.Debug|Default.Deploy.0 = Debug
+		{26B8ACBF-CFCC-467D-B570-DDE035AE5A5E}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{26B8ACBF-CFCC-467D-B570-DDE035AE5A5E}.DebugLocal|Default.Build.0 = DebugLocal
+		{26B8ACBF-CFCC-467D-B570-DDE035AE5A5E}.Release|Default.ActiveCfg = Release
+		{26B8ACBF-CFCC-467D-B570-DDE035AE5A5E}.Release|Default.Build.0 = Release
+		{26B8ACBF-CFCC-467D-B570-DDE035AE5A5E}.Release|Default.Deploy.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BDBFABBF-B45A-4046-8DFB-113AC886A9F5}
+	EndGlobalSection
+EndGlobal

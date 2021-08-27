@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.489
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "KQA_SubReport", "KQA_SubReport\KQA_SubReport.rptproj", "{580CDAA8-4679-4652-8C1D-8EBD35E792D5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{580CDAA8-4679-4652-8C1D-8EBD35E792D5}.Debug|Default.ActiveCfg = Debug
+		{580CDAA8-4679-4652-8C1D-8EBD35E792D5}.Debug|Default.Build.0 = Debug
+		{580CDAA8-4679-4652-8C1D-8EBD35E792D5}.Debug|Default.Deploy.0 = Debug
+		{580CDAA8-4679-4652-8C1D-8EBD35E792D5}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{580CDAA8-4679-4652-8C1D-8EBD35E792D5}.DebugLocal|Default.Build.0 = DebugLocal
+		{580CDAA8-4679-4652-8C1D-8EBD35E792D5}.Release|Default.ActiveCfg = Release
+		{580CDAA8-4679-4652-8C1D-8EBD35E792D5}.Release|Default.Build.0 = Release
+		{580CDAA8-4679-4652-8C1D-8EBD35E792D5}.Release|Default.Deploy.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6FE43E96-7C9D-49DF-9209-B3F95D2D995C}
+	EndGlobalSection
+EndGlobal

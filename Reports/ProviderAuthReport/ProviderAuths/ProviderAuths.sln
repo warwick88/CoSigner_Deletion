@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.489
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "ProviderAuths", "ProviderAuths\ProviderAuths.rptproj", "{E67E4DEB-0DFC-4CF8-A144-B74B22CAF56C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E67E4DEB-0DFC-4CF8-A144-B74B22CAF56C}.Debug|Default.ActiveCfg = Debug
+		{E67E4DEB-0DFC-4CF8-A144-B74B22CAF56C}.Debug|Default.Build.0 = Debug
+		{E67E4DEB-0DFC-4CF8-A144-B74B22CAF56C}.Debug|Default.Deploy.0 = Debug
+		{E67E4DEB-0DFC-4CF8-A144-B74B22CAF56C}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{E67E4DEB-0DFC-4CF8-A144-B74B22CAF56C}.DebugLocal|Default.Build.0 = DebugLocal
+		{E67E4DEB-0DFC-4CF8-A144-B74B22CAF56C}.Release|Default.ActiveCfg = Release
+		{E67E4DEB-0DFC-4CF8-A144-B74B22CAF56C}.Release|Default.Build.0 = Release
+		{E67E4DEB-0DFC-4CF8-A144-B74B22CAF56C}.Release|Default.Deploy.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9BC97CF2-2B8A-4007-8C7F-2E852E97BAA9}
+	EndGlobalSection
+EndGlobal

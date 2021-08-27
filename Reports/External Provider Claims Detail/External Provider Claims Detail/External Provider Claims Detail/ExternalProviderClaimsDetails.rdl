@@ -2,12 +2,9 @@
 <Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2016/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
   <AutoRefresh>0</AutoRefresh>
   <DataSources>
-    <DataSource Name="SmartCare">
-      <ConnectionProperties>
-        <DataProvider>SQL</DataProvider>
-        <ConnectString>Data Source=kcmh-db1;Initial Catalog=ProdSmartCare</ConnectString>
-      </ConnectionProperties>
-      <rd:SecurityType>DataBase</rd:SecurityType>
+    <DataSource Name="SmartCare_DataStore">
+      <DataSourceReference>SmartCare_DataStore</DataSourceReference>
+      <rd:SecurityType>None</rd:SecurityType>
       <rd:DataSourceID>4d9c6f56-a45a-4ba3-8fda-70ea7a7ff1cf</rd:DataSourceID>
     </DataSource>
   </DataSources>
@@ -214,7 +211,7 @@ ORDER BY DenialReasonId</CommandText>
     </DataSet>
     <DataSet Name="Provider">
       <Query>
-        <DataSourceName>SmartCare</DataSourceName>
+        <DataSourceName>SmartCare_DataStore</DataSourceName>
         <QueryParameters>
           <QueryParameter Name="@ExecutedByStaffId">
             <Value>=Parameters!ExecutedByStaffId.Value</Value>
@@ -236,7 +233,7 @@ ORDER BY DenialReasonId</CommandText>
     </DataSet>
     <DataSet Name="Insurer">
       <Query>
-        <DataSourceName>SmartCare</DataSourceName>
+        <DataSourceName>SmartCare_DataStore</DataSourceName>
         <CommandType>StoredProcedure</CommandType>
         <CommandText>ksp_GetInsurers</CommandText>
       </Query>
@@ -253,7 +250,7 @@ ORDER BY DenialReasonId</CommandText>
     </DataSet>
     <DataSet Name="Sites">
       <Query>
-        <DataSourceName>SmartCare</DataSourceName>
+        <DataSourceName>SmartCare_DataStore</DataSourceName>
         <QueryParameters>
           <QueryParameter Name="@ProviderId">
             <Value>=Parameters!ProviderId.Value</Value>

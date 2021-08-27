@@ -1,0 +1,37 @@
+Dim definition As [Byte]() = Nothing
+Dim warnings As Warning() = Nothing
+Dim folderspec As String= "*.rdl"
+Dim parentPath As String = "/" + "PREPROD/SCDocuments"
+Dim overwrite As Boolean = True
+
+Public Sub Main()
+
+rs.Credentials = System.Net.CredentialCache.DefaultCredentials
+Dim path as string=Directory.GetCurrentDirectory()
+Dim di as DirectoryInfo= New DirectoryInfo(path)
+Dim files() as FileInfo
+Try
+files=di.GetFiles(folderspec)
+Catch e As Exception
+Console.WriteLine("ERROR while searching files in [{0}],and error is [{1}]",folderspec,e.Message)
+Exit Sub
+End Try
+
+Dim file as FileInfo
+for Each file in files
+PublishReport(file.Name)
+Next
+End Sub
+
+Public Sub PublishReport(ByVal reportName As String)
+Dim stream As FileStream = File.OpenRead(reportName)
+Try
+definition = New [Byte](stream.Length - 1) {}
+stream.Read(definition,0,CInt(stream.Length))
+rs.CreateReport(reportName.Substring(0,reportName.Length-4), parentPath, True, definition, Nothing)
+stream.Close()
+Console.WriteLine("Report: {0} published successfully.", reportName)
+Catch e As Exception
+Console.WriteLine("ERROR while publishing report [{0}],and error is [{1}]",reportName,e.Message)
+End Try
+End Sub

@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.489
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "ExternalProviderDenPendV2", "ExternalProviderDenPendV2\ExternalProviderDenPendV2.rptproj", "{EB6D5866-B6E2-4120-9F5F-2FCFCABA0503}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB6D5866-B6E2-4120-9F5F-2FCFCABA0503}.Debug|Default.ActiveCfg = Debug
+		{EB6D5866-B6E2-4120-9F5F-2FCFCABA0503}.Debug|Default.Build.0 = Debug
+		{EB6D5866-B6E2-4120-9F5F-2FCFCABA0503}.Debug|Default.Deploy.0 = Debug
+		{EB6D5866-B6E2-4120-9F5F-2FCFCABA0503}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{EB6D5866-B6E2-4120-9F5F-2FCFCABA0503}.DebugLocal|Default.Build.0 = DebugLocal
+		{EB6D5866-B6E2-4120-9F5F-2FCFCABA0503}.Release|Default.ActiveCfg = Release
+		{EB6D5866-B6E2-4120-9F5F-2FCFCABA0503}.Release|Default.Build.0 = Release
+		{EB6D5866-B6E2-4120-9F5F-2FCFCABA0503}.Release|Default.Deploy.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {394EE984-1E34-4B59-917D-B5C3996FD546}
+	EndGlobalSection
+EndGlobal

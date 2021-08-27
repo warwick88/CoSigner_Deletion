@@ -1,0 +1,1 @@
+rs -i PublishRDL.rss -s http://slnonprod-db/Reportserver_SLNONPROD >"RDLShowLog.txt"
